@@ -1,11 +1,11 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+# from django.http import HttpResponse
 
 # Create your views here.
 def blog(request):
     print("blog")
-    return HttpResponse("blog 1")
+    return render(request,"blog_1.html")
 
 def blog2(request):
     print("blog2")
-    return HttpResponse("blog 2")
+    return render(request, 'blog.html')

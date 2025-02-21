@@ -4,5 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 def home(request):
     print("home")
-    return HttpResponse("home 1")
+    print("minha página home é completona!!")
+    return HttpResponse("home teste")
 

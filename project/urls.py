@@ -20,7 +20,9 @@ from django.http import HttpResponse
 from home import views as home_views
 from blog import views as blog_views
 
-
+def my_view(request):
+    print("blá blá blá")
+    return HttpResponse("helllooooooo")
 
 urlpatterns = [
     path('', include("home.urls")),

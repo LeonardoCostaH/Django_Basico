@@ -20,4 +20,6 @@ def main():
 
 if __name__ == '__main__':
     print("teste is running")
+    print("Oi, só um teste mesmo!!")
+    print("outro teste")
     main()
