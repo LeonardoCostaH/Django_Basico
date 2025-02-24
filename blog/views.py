@@ -9,3 +9,7 @@ def blog(request):
 def blog2(request):
     print("blog2")
     return render(request, 'blog.html')
+
+def blog3(request):
+    print("home")
+    return render(request, 'home.html')
