@@ -4,12 +4,5 @@ from django.shortcuts import render
 # Create your views here.
 def blog(request):
     print("blog")
-    return render(request,"blog_1.html")
-
-def blog2(request):
-    print("blog2")
-    return render(request, 'blog.html')
-
-def blog3(request):
-    print("home")
-    return render(request, 'home.html')
+    return render(request,
+                  "blog/blog.html")
